@@ -1,15 +1,15 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-    Explore-GitHub-Actions:
-        runs-on: ubuntu-latest
+    test:
+        runs-on: ubuntu-18.04
         steps:
             - name: Extract tag name
               id: tag
               uses: actions/github-script@0.2.0
               with:
-                github-token: ${{ secrets.GITHUB_TOKEN }}
-                script: |
-                        return context.payload.ref.replace(/\/refs\/tags\//, '');
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
+                  script: |
+                      return context.payload.ref.replace(/\/refs\/tags\//, '');
             - name: Echo
               run: echo ${{ steps.tag.outputs.result }}
