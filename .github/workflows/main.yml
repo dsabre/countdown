@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-      - run: ls -la
+      - run: "VER=$(git describe --tags --abbrev=0 |sed 's/v//g');clear;sed \"s/\\\"version\\\".*/\\\"version\\\": \\\"${VER}\\\",/g\" package.json"
 
   publish-npm:
     if: ${{ false }}
