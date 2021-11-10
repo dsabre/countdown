@@ -1,4 +1,4 @@
-export default class Countdown {
+module.exports = class Countdown {
 
     constructor(querySelector) {
         this.querySelector   = querySelector || '[data-dscountdown]';
@@ -73,4 +73,4 @@ export default class Countdown {
             }, 1000));
         }
     }
-}
+};
