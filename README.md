@@ -1,13 +1,13 @@
 
 # Countdown
 
+A fully customizable countdown javascript for your site.
+
 [![Version](https://img.shields.io/npm/v/@dsabre/countdown?style=for-the-badge)](https://www.npmjs.com/package/@dsabre/deploy-ftp)
 [![License: MIT](https://img.shields.io/npm/l/@dsabre/countdown?registry_uri=https%3A%2F%2Fregistry.npmjs.org&style=for-the-badge)](https://github.com/dsabre/deploy-ftp/blob/main/LICENSE)
 [![Downloads](https://img.shields.io/npm/dw/@dsabre/countdown?style=for-the-badge)](https://www.npmjs.com/package/@dsabre/deploy-ftp)
 [![GitHub issues](https://img.shields.io/github/issues-raw/dsabre/countdown?style=for-the-badge)](https://github.com/dsabre/deploy-ftp/issues)
 [![Dependencies](https://img.shields.io/librariesio/release/npm/@dsabre/countdown?style=for-the-badge)](https://www.npmjs.com/package/@dsabre/deploy-ftp)
-
-A fully customizable countdown javascript for your site.
 
 
 ## Usage/Examples
