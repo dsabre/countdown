@@ -97,6 +97,11 @@ data-separatorclasses="exampleClass1 exampleClass2 ... exampleClassN"
 ```
 
 
+## Demo
+
+https://codepen.io/daniele-sabre/pen/XWaYQew
+
+
 ## Contributing
 
 For contributions, issues and feature requests please check [issues page](https://github.com/dsabre/countdown/issues).
